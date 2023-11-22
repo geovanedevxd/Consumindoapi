@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Consumindo uma API</title>
+</head>
+
+<body>
+    <Header>
+        <h1>Filmes Populares</h1>
+        <div class="input-container">
+            <input type="text" class="caixatexto" id="caixatexto" placeholder="Digite algum filme para pesquisar...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="check">
+            <input type="checkbox" name="favoritos" id="favoritos">
+            <h3>Mostrar meus filmes favoritos apenas</h3>
+        </div>
+    </Header>
+    <main>
+        <div class="filmes filme">
+            <div class="imagem"><img src="./src/imagens/avengers.jpg" alt="Imagem dos Vingadores"></div>
+            <div class="titulo status">
+                <div class="titulo">Avengers Endgame(2019)</div>
+                <div class="status">
+                    <i class="fas fa-star"></i>
+                    <div class="pontuacao">9.2</div><br>
+                    <i class="fas fa-heart"></i>
+                    <div class="favoritar">Favoritar</div>
+                </div>
+            </div>
+            <div class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus adipisci iusto
+                architecto ratione, quasi accusantium numquam labore officiis sint ea sapiente saepe tempore quam sit
+                facere aut magni, nostrum beatae?</div>
+        </div>
+
+        <div class="filmes filme">
+            <div class="imagem"> <img src="./src/imagens/batman.jpg" alt="Imagem do Batman"></div>
+            <div class="titulo status">
+                <div class="titulo">Batman (2022)</div>
+                <div class="status">
+                    <i class="fas fa-star"></i>
+                    <div class="pontuacao">9.2</div><br>
+                    <i class="far fa-heart"></i>
+                    <div class="favoritar">Favoritar</div>
+                </div>
+            </div>
+            <div class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, consequuntur minus
+                excepturi laboriosam, unde ducimus quia, tempora officia quidem assumenda quis vero iusto ipsum pariatur
+                labore. Ducimus obcaecati aperiam voluptatum?</div>
+        </div>
+
+        <div class="filmes filme">
+            <div class="imagem"><img src="./src/imagens/doctor-strange.webp" alt="Imagem do Doutor Estranho"></div>
+            <div class="titulo status">
+                <div class="titulo">Doctor Strange in the Multiverse of Madness</div>
+                <div class="status">
+                    <i class="fas fa-star"></i>
+                    <div class="pontuacao">8.5</div><br>
+                    <i class="fas fa-heart"></i>
+                    <div class="favoritar">Favoritar</div>
+                </div>
+            </div>
+            <div class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sit quibusdam eaque
+                obcaecati blanditiis fuga asperiores a illo, quos enim debitis quaerat sapiente laudantium, voluptates
+                excepturi. Amet in voluptas sapiente?</div>
+        </div>
+
+        <div class="filmes filme">
+            <div class="imagem"><img src="./src/imagens/avatar.webp" alt="Imagem do Avatar"></div>
+            <div class="titulo status">
+                <div class="titulo">Avatar (2009)</div>
+                <div class="status">
+                    <i class="fas fa-star"></i>
+                    <div class="pontuacao">9.5</div><br>
+                    <i class="far fa-heart"></i>
+                    <div class="favoritar">Favoritar</div>
+                </div>
+            </div>
+            <div class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloremque alias
+                officia dolorem adipisci ipsa nesciunt debitis aliquam ad nemo nam iure repudiandae voluptates
+                consequatur necessitatibus eveniet fugit, dignissimos recusandae.</div>
+        </div>
+
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="./src/js/index.js"></script>
+
+</body>
+
+</html>
