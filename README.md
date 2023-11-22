@@ -1,5 +1,5 @@
 # consumindoapi
 Desafio Consumindo API de Filmes
-Integrantes:
-Geovane dos Santos Gonçalves
+Integrantes:<br>
+Geovane dos Santos Gonçalves<br>
 Eduarda Miranda
